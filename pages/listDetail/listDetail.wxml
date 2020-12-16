@@ -1,0 +1,9 @@
+<!--pages/listDetail/listDetail.wxml-->
+<view class="list-detail">
+  <view class="detail-add-entry"><text class="add-btn" bindtap="addTopics">新增题目</text></view>
+  <view class="detail-wrapper">
+    <view class="detail-title" wx:for="{{pageList[pageTitle]}}" wx:key="index">
+      {{item.listTitle}}
+    </view>
+  </view>
+</view>

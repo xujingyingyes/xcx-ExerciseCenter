@@ -1,0 +1,30 @@
+/* pages/listDetail/listDetail.wxss */
+.detail-add-entry{
+  width: 100%;
+  height: 100rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-btn{
+  font-size: 32rpx;
+  padding: 20rpx 15rpx;
+  background: #409eff;
+  color: #fff;
+  border-radius: 25rpx;
+}
+
+.detail-wrapper{
+
+}
+
+.detail-title{
+  height: 100rpx;
+  line-height: 100rpx;
+  margin: 20rpx 0;
+}
+
+.detail-title:hover{
+  background: #e5e9f2;
+}

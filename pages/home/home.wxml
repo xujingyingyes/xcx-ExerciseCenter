@@ -1,0 +1,14 @@
+<!--pages/home/home.wxml-->
+<view class="home-wrapper">
+  <view class="home-nav" wx:for="{{navList}}" wx:key="index" wx:for-item="navItem">
+    <view class="nav-title">{{navItem.title}}</view>
+    <view class="nav-wrapper">
+      <view class="nav-item disA" wx:for="{{navItem.sectionText}}" wx:key="index" bindtap="goDetail" data-type="{{item}}">
+        <view class="item-img">
+          <image src="{{ item.imgUrl }}"></image>
+        </view>
+        <view class="item-title">{{item.title}}</view>
+      </view>
+    </view>
+  </view>
+</view>
