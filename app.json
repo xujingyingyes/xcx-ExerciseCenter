@@ -4,7 +4,8 @@
     "pages/home/home",
     "pages/listDetail/listDetail",
     "pages/addTopics/addTopics",
-    "pages/my/my"
+    "pages/my/my",
+    "pages/detail/detail"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -23,7 +24,7 @@
         "text": "首页"
       },
       {
-        "pagePath": "pages/listDetail/listDetail",
+        "pagePath": "pages/detail/detail",
         "text": "分类"
       },
       {

@@ -118,7 +118,7 @@ Page({
   // 跳转到详情页面
   goDetail: function (options) {
     let typeId = options.currentTarget.dataset.type.title;
-    wx.switchTab({ // 只能打开非tabBar页面
+    wx.navigateTo({ // 只能打开非tabBar页面
       url: `/pages/listDetail/listDetail?pageType=${typeId}`
     })
   },
