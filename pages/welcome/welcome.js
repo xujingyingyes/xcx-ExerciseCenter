@@ -1,4 +1,4 @@
-//index.js
+// pages/welcome/welcome.js
 //获取应用实例
 const app = getApp()
 
@@ -53,7 +53,7 @@ Page({
   },
   // 进入主页
   goHome: function(e) {
-    wx.navigateTo({ // 只能打开非tabBar页面
+    wx.switchTab({ // 只能打开非tabBar页面
       url: '/pages/home/home',
     })
   }

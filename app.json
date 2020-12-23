@@ -1,9 +1,10 @@
 {
   "pages": [
-    "pages/index/index",
+    "pages/welcome/welcome",
     "pages/home/home",
     "pages/listDetail/listDetail",
-    "pages/addTopics/addTopics"
+    "pages/addTopics/addTopics",
+    "pages/my/my"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -18,19 +19,19 @@
     "backgroundColor": "#fff",
     "list": [
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/home/home",
         "text": "首页"
       },
       {
-        "pagePath": "pages/home/home",
+        "pagePath": "pages/listDetail/listDetail",
         "text": "分类"
       },
       {
-        "pagePath": "pages/listDetail/listDetail",
-        "text": "购物车"
+        "pagePath": "pages/addTopics/addTopics",
+        "text": "新增题目"
       },
       {
-        "pagePath": "pages/addTopics/addTopics",
+        "pagePath": "pages/my/my",
         "text": "我的"
       }
     ]
