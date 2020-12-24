@@ -1,4 +1,4 @@
-// pages/addTopics/addTopics.js
+// pages/category/category.js
 Page({
 
   /**
@@ -15,11 +15,6 @@ Page({
 
   },
 
-  addBtn: function (){
-    wx.navigateTo({
-      url: '/pages/topicsDetail/topicsDetail',
-    })
-  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

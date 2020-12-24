@@ -1,1 +1,22 @@
 /* pages/my/my.wxss */
+.my-wrapper{
+  height: 100vh;
+}
+
+.operation-title{
+  line-height: 60rpx;
+  border-left: 6rpx solid red;
+  padding-left: 40rpx;
+}
+
+
+.operation-lsit{
+  margin-top: 30rpx;
+}
+
+.operation-item{
+  line-height: 60rpx;
+  margin:0 40rpx;
+  background: #fff;
+  border-bottom: 2rpx solid #000;
+}

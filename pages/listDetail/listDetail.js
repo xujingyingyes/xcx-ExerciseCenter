@@ -148,8 +148,6 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    console.log(111)
-    console.log(options, 'options')
     this.setData({
       pageTitle: options.pageType
     })
@@ -166,14 +164,11 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function (options) {
-    console.log(222, options)
-    // this.setData({
-    //   pageTitle: options.pageType
-    // })
+    
   },
   addTopics: function () {
     wx.navigateTo({
-      url: '/pages/addTopics/addTopics',
+      url: '/pages/topicsDetail/topicsDetail',
     })
   },
   /**

@@ -1,1 +1,22 @@
 /* pages/addTopics/addTopics.wxss */
+
+.addTopics-wrapper{
+  text-align: center;
+}
+
+.add-btn{
+  width: 160rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 26rpx;
+  text-align: center;
+  background: #0b7685;
+  color: #fff;
+  border-radius: 25rpx;
+  margin: 50rpx auto ;
+}
+
+.tops{
+  color: #999;
+  font-size: 20rpx;
+}

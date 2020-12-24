@@ -5,7 +5,32 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    operationList: {
+      title: '我的功能',
+      operationArr: [
+        {
+          title: '历史记录',
+          imgUrl: '',
+          iconClass: '',
+          id: 1,
+          pageUrl: '/pages/topicsDetail/topicsDetail'
+        },
+        {
+          title: '我的收藏',
+          imgUrl: '',
+          iconClass: '',
+          id: 2,
+          pageUrl: '/pages/topicsDetail/topicsDetail'
+        },
+        {
+          title: '我的提问',
+          imgUrl: '',
+          iconClass: '',
+          id: 3,
+          pageUrl: '/pages/topicsDetail/topicsDetail'
+        }
+      ]
+    }
   },
 
   /**
@@ -15,6 +40,12 @@ Page({
 
   },
 
+  goPage: function(options) {
+    let pageUrl = options.currentTarget.dataset.page;
+    wx.navigateTo({
+      url: pageUrl,
+    })
+  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

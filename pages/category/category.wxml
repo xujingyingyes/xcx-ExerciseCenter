@@ -1,0 +1,4 @@
+<!--pages/category/category.wxml-->
+<view class="category-wrapper">
+  分类暂未开放
+</view>

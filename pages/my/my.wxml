@@ -1,2 +1,13 @@
 <!--pages/my/my.wxml-->
-<text>pages/my/my.wxml</text>
+<view class="my-wrapper">
+  <view class="operation-center">
+    <view class="operation-title">
+      {{operationList.title}}
+    </view>
+    <view class="operation-lsit">
+      <view class="operation-item"  wx:for="{{operationList.operationArr}}" wx:key="index" bindtap="goPage" data-page="{{item.pageUrl}}">
+      {{ item.title }}
+      </view>
+    </view>
+  </view>
+</view>

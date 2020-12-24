@@ -1,2 +1,11 @@
 <!--pages/addTopics/addTopics.wxml-->
-<text>pages/addTopics/addTopics.wxml</text>
+<view class="addTopics-wrapper">
+  <view class="add-btn" bindtap="addBtn">
+    新增题目
+  </view>
+
+  <text class="tips">
+    未发现我想要了解的题目及相关信息
+  </text>
+</view>
+
